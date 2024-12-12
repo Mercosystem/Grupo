@@ -13,58 +13,52 @@
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#contato">Contato</a></li>
-            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#about-us">Sobre Nós</a></li>
             <li><a href="#Produtos">Produtos</a></li>
         </ul>
         <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
     </nav>
 
     <!-- Imagem Principal com Texto -->
-    <section id="home" class="hero-section">
+      <section id="home" class="hero-section">
         <div class="hero-text">
-            <img src="Logogrupo.png" alt="">
+            <img src="Logogrupo.png" alt="Logo do Grupo" class="fade-logo">
         </div>
     </section>
+    
 
       <!-- Produtos -->
-    <div id="Produtos" class="txtprodutos"> <h1> Produtos </h1></div> 
-    <div id="categorias" class="container">
-        <div class="menu">
-            <ul>
-                <li class="menu-item" onclick="showContent('conforto')">Conforto Térmico</li>
-                <li class="menu-item" onclick="showContent('decoracao')">Decoração</li>
-                <li class="menu-item" onclick="showContent('tecnologia')">Tecnologia</li>
-                <li class="menu-item" onclick="showContent('energia')">Energia</li>
-            </ul>
+<section id="Produtos" class="products-section">
+    <div class="products-container">
+        <!-- Texto à esquerda -->
+        <div class="products-text">
+            <h1>Conheça Nossos Produtos</h1>
+            <p>Escolha a categoria desejada para visualizar os produtos que oferecemos e suas características exclusivas.</p>
         </div>
-        <div class="content">
-            <div id="conforto" class="content-item">
-                <a href="produto1.html" class="product-card">Piso Aquecido</a>
-                <a href="produto2.html" class="product-card">Toalheiro Aquecido</a>
-            </div>
-            <div id="decoracao" class="content-item">
-                <a href="produto3.html" class="product-card">Placas Decorativas em 3D</a>
-                <a href="produto4.html" class="product-card">Cortinas</a>
-                <a href="produto5.html" class="product-card">Papel de Parede Líquido</a>
-            </div>
-            <div id="tecnologia" class="content-item">
-                <a href="produto6.html" class="product-card">Automação</a>
-                <a href="produto7.html" class="product-card">Som Ambiente</a>
-                <a href="produto8.html" class="product-card">Câmeras</a>
-            </div>
-            <div id="energia" class="content-item">
-                <a href="produto9.html" class="product-card">Energia Solar</a>
-                <a href="produto10.html" class="product-card">Aquecimento de Água</a>
-            </div>
+        <!-- Bolas clicáveis à direita -->
+        <div class="products-circles">
+            <a href="#categoria1" class="circle">
+                <img src="imagem1.png" alt="Categoria 1">
+            </a>
+            <a href="#categoria2" class="circle">
+                <img src="imagem2.png" alt="Categoria 2">
+            </a>
+            <a href="#categoria3" class="circle">
+                <img src="imagem3.png" alt="Categoria 3">
+            </a>
+            <a href="#categoria4" class="circle">
+                <img src="imagem4.png" alt="Categoria 4">
+            </a>
         </div>
     </div>
-    
+</section>
+
     <!-- Seção de Contatos -->
     <section id="contato" class="contact-section">
         <div class="contact-content">
             <h1>Faça seu orçamento</h1>
             <p>diretamente no nosso whatsapp</p>
-            <a href="https://wa.me/SEU_NUMERO" target="_blank">(51) 99999-9999</a>
+            <a href="https://wa.me/message/QMERMR5H7HC4E1" target="_blank">(51) 98178-1950</a>
         </div>
     </section>
     
@@ -77,12 +71,32 @@
     </section>
     
 
-    <!-- Sobre Nós -->
-    <section id="sobre" class="about-section">
-        <h2>Sobre o Grupo Mercosystem</h2>
-        <p>O Grupo Mercosystem oferece soluções completas para conforto térmico, decoração, tecnologia e energia.</p>
+    <section id="about-us" class="about-us">
+        <!-- Título da seção -->
+        <h2>Sobre Nós</h2>
+    
+        <!-- Texto sobre o grupo -->
+        <p>
+            O Grupo Mercosystem é uma união de empresas que se dedicam a oferecer soluções inovadoras no mercado de construção e design de interiores. Com mais de X anos de experiência, somos especializados em produtos de alta qualidade, como pisos aquecidos, energia solar, automação residencial e revestimentos decorativos. Nossos serviços atendem a um público exigente, como arquitetos, engenheiros e clientes finais, com um atendimento personalizado e garantia de excelência em cada projeto.
+        </p>
+    
+        <!-- Logos das empresas do grupo -->
+        <div class="company-logos">
+            <img src="logo1.png" alt="Empresa 1">
+            <img src="logo2.png" alt="Empresa 2">
+            <img src="logo3.png" alt="Empresa 3">
+            <img src="logo4.png" alt="Empresa 4">
+            <img src="logo5.png" alt="Empresa 5">
+            <img src="logo6.png" alt="Empresa 6">
+            <img src="logo7.png" alt="Empresa 7">
+        </div>
+    
+        <!-- Texto de direitos reservados -->
+        <p class="footer-text">
+            Todos os direitos reservados à Mercosystem &copy; 2025
+        </p>
     </section>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
