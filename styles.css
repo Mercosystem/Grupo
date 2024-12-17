@@ -566,7 +566,7 @@ body {
 }
 
 .company-logos img:hover {
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    transform: scale(1.5); /* Efeito de zoom ao passar o mouse */
 }
 
 .footer-text {
